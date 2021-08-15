@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Jg Computer</title>
+	<link rel="icon" href="img/Icono.png">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <section class="preloader">
+        <div class="spinner">
+            <span class="spinner-rotate"></span>
+        </div>
+    </section>
+    <header class="header">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
+            <div class="container-fluid ">
+                <a class="navbar-brand m-0" href="index.html"><img src="img/Logo2.png" class="logo" alt=""></a>
+                <button class="navbar-toggler me-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon text-center"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                    <ul class="navbar-nav">
+                        <li class="nav-item text-center ms-3 me-3">
+                            <a class="nav-link text-light" aria-current="page" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item text-center ms-3 me-3">
+                            <a class="nav-link text-light" aria-current="page" href="#quienes">Conócenos</a>
+                        </li>
+                        <li class="nav-item text-center ms-3 me-3">
+                            <a class="nav-link text-light" aria-current="page" href="#contacto">Contáctenos</a>
+                        </li>
+                        <li class="nav-item text-center">
+                            <a class="nav-link text-light" aria-current="page" href="ControladorUsuarios">Tienda Online</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+        <div class="container alto m-auto">
+            <div class="row text-light contenido-header">
+                <div class="col-lg-12 m-auto">
+                    <h1>Somos la mejor tienda Online del mercado. Realiza tu compra y recibela en tu domicilio sin ningun costo adicional</h1>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="contenedor">
+            <aside>
+                <nav class="indice">
+                    <a href="#quienes">Quiénes Somos</a>
+                    <a href="#servicios">Nuestros Servicios</a>
+                    <a href="#como">Cómo Comprar</a>
+                    <a href="#metodos">Métodos de Pago</a>
+                </nav>
+            </aside>
+            <div class="contenido">
+                <div class="post">
+                    <h1 class="titulo" id="quienes">Quiénes Somos</h1>
+                    <p class="text-justify">
+                        Somos una compañía especializada en la comercialización y distribución de productos tecnológicos. Respaldado por miles de usuarios que nos eligen cada día por tener los precios más competitivos del mercado, la mayor variedad de productos, asesoramiento exclusivo y tener tecnología de vanguardia. 
+                    </p>
+                </div>
+                <div class="post">
+                    <h1 class="titulo" id="servicios">Nuestros Servicios</h1>
+                    <p class="text-justify">En nuestro sitio conseguiras:</p>
+                    <ul>
+                        <li>Insumos y Repuestos</li>
+                        <li>Computadoras</li>
+                        <li>Notebooks</li>
+                        <li>Telefonía</li>
+                        <li>Fotografía y Video</li>
+                        <li>Accesorios </li>
+                    </ul>
+                </div>
+                <div class="post">
+                    <h1 class="titulo" id="como">Cómo Comprar</h1>
+                    <p class="text-justify">
+                        Para poder comprar debe dirigirte a la opcion Tienda Online en nuestro menu y registrarte
+                    </p>
+                </div>
+                <div class="post">
+                    <h1 class="titulo" id="metodos">Métodos de Pago</h1>
+                    <img class="imagen m-auto" src="img/Formas-de-pagos.png" alt="FormasdePagos">
+                    <h2 class="text-center">Múltiples formas de pago a través de MercadoPago</h2>
+                </div>		
+            </div>
+        </div>
+    </main>
+    <footer id="contacto">
+        <div class="container-fluid m-auto contenedor-imagen">
+            <div class="row contenido-header">
+                <div class="col-md-6 m-auto p-5 opacidad">
+                    <form>
+                        <h1>Contactenos</h1>
+                        <div class="mb-3">
+                            <input type="text" class="form-control letra" aria-describedby="emailHelp" placeholder="Nombre" required>
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" class="form-control letra" id="exampleInputEmail1" placeholder="Email" required>
+                        </div>
+                        <div class="mb-3">
+                            <input type="text" class="form-control letra" placeholder="Telefono" required>
+                        </div>
+                        <div class="mb-3">
+                            <textarea class="form-control letra" placeholder="Mensaje" name="" id="" rows="8" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary letra">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+    <script src="js/jquery.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</html> 

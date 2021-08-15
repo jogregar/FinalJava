@@ -1,0 +1,340 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+}
+
+html {
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+	font-size: 62.5%;
+}
+
+body {
+	font-family: 'Lato', sans-serif;	
+	line-height: 2;
+	font-size: 1.8rem;
+        background-color: #EAEDED;
+}
+
+h1 {
+    font-size: 3.8rem;
+}
+
+h2 {
+    font-size: 3.4rem;
+}
+h3 {
+    font-size: 2.5rem;
+}
+h4 {
+    font-size: 2.2rem;
+}
+
+h5 {
+    font-size: 2rem;
+}
+
+.swal2-popup {
+  font-size: 1.4rem !important;
+}
+
+a {
+    text-decoration: none;
+}
+
+select {
+    width: 4.5rem;
+}
+
+.ancho {
+    width: 5rem !important;
+}
+
+.preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 99999;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    background: none repeat scroll 0 0 #ffffff;
+  }
+
+.l-card {
+    text-decoration: none;
+    color: black;
+}
+  
+.spinner {
+    border: 1px solid transparent;
+    border-radius: 3px;
+    position: relative;
+}
+
+.spinner:before {
+    content: '';
+    box-sizing: border-box;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 45px;
+    height: 45px;
+    margin-top: -10px;
+    margin-left: -10px;
+    border-radius: 50%;
+    border: 1px solid #2faa24;
+    border-top-color: #164b9b;
+    animation: spinner .9s linear infinite;
+}
+
+@keyframes spinner {
+    to {transform: rotate(360deg);}
+}  
+
+.loading {
+    color: white;
+    text-align: center;
+}
+
+.ocultar {
+    display: none;
+}
+
+.gif {
+    width: 32px;
+    height: 32px;
+}
+
+.contenido-header h1 {
+    color: #ffffff;
+    font-size: 4rem;
+    line-height: 1.5;
+    font-weight: 900;
+    -webkit-text-stroke: 0.2rem black;
+}
+
+.navbar {
+	font-size: 2rem;
+	position: sticky;
+	top: 0;
+}
+
+.logo {
+	width: 20rem;
+	margin: 0;
+}
+
+.logos {
+    width: 7rem;
+    margin-right: 2rem;
+}
+
+.header {
+    background: url(../img/Fondo9.jpg);
+    background-position: center center;
+    background-size: cover;
+    vertical-align: middle;
+    height: 100vh;
+}
+
+.top {
+    z-index: 10;
+}
+
+div ul li a:hover {
+    color: #000958 !important;
+}
+
+.alto {
+	height: 85vh;
+}
+
+.t-icono {
+	font-size: 3rem;
+}
+
+span .t-icono {
+    font-size: 1.5rem;
+}
+
+.contenido-header {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.contenedor {
+	max-width: 120rem;
+	width: 90%;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+.justificar {
+	text-align: justify;
+}
+
+.pagos {
+	background-color: #525151;
+	width: 100%;
+	align-content: center;
+}
+
+.imagen {
+	width: 50rem;
+	height: 25rem;
+	margin: 0 auto;
+    display: block;
+}
+
+.letra {
+    font-size: 1.8rem;   
+}
+
+.card {
+    max-height: 43rem;
+}
+
+.t-articulo {
+    overflow: hidden;
+    font-size: 1.3rem !important;
+    line-height: 1.5rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    height: 3rem;
+}
+
+.t-precio {
+    font-size: 1.5rem;
+    color: blue;
+    text-align: right;
+}
+
+.total {
+    color:blue;
+}
+
+footer div div .opacidad {
+    background-color: rgba(0,0,0,.75);
+    border-radius: .4rem;
+    height: 80%;
+}
+
+div div .opacidad {
+    background-color: rgba(0,0,0,.75);
+    border-radius: .4rem;
+    height: 60%;
+}
+
+div div div a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover, button:hover {
+    color: black !important;
+    cursor: pointer !important;
+}
+
+main {
+	min-height: 100vh;
+}
+
+main .contenido p {
+	margin-bottom: 2rem;
+	line-height: 3rem;
+	color: #525151;
+}
+
+main .contenido .titulo {
+	color:#000958;
+	font-weight: normal;
+	padding-top: 4rem;
+}
+
+aside {
+	min-width: 30%;
+	margin: 4rem 2rem 2rem 0;
+	height: 100%;
+	background: #1D2F3D;
+	padding: 2rem;
+	border-radius: 0.3rem;
+	position: sticky;
+	top: 2rem;
+}
+
+aside .indice a {
+	display: block;
+	margin-bottom: 1rem;
+	color: #FFCD48;
+}
+
+.barra:hover {
+    color: black !important;
+}
+
+.carrito {
+    background-color: white;
+    color: black;
+    margin-top: -4rem;
+    margin-left: 15rem;
+    position:absolute;
+    width: 2rem;
+    height: 2rem;
+    text-align: center;
+    font-size: 1rem;
+    border-radius: 100%;
+}
+
+.barra:hover .carrito {
+    background-color: black;
+    color: white;
+}
+
+footer{
+	padding-top: 2rem;
+}
+
+.contenedor-imagen {
+    height: 100vh;
+    background: url(../img/Fondo8.jpg);
+    background-position: center center;
+    background-size: cover;
+    vertical-align: middle;
+}
+
+.centrate {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+@media screen and (max-width: 900px){
+
+	main .contenedor {
+		flex-direction: column;
+	}
+
+	aside {
+		position: static;
+		margin: 4rem 0 0 0;
+	}
+
+	.alto div div h1 {
+		font-size: 3rem;
+	}
+
+	.imagen {
+		width: 30rem;
+		height: 15rem;
+	}
+}
